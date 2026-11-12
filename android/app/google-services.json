@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "277636442488",
+    "project_id": "app-noticias-jmc-2026",
+    "storage_bucket": "app-noticias-jmc-2026.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277636442488:android:48053485d8ffe4c972408d",
+        "android_client_info": {
+          "package_name": "com.example.app_noticias"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEdj94hXL2NR0pjtxXJtu4-d8TaB_C_VI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
