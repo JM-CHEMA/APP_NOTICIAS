@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:app_noticias/models/news_model.dart';
+import 'package:app_noticias/modules/news/models/news_model.dart';
 
 void main() {
   test('WordPress JSON se convierte en un modelo', () {
@@ -10,9 +10,11 @@ void main() {
       'excerpt': {'rendered': 'Hola'},
       'date': '2026-10-01T14:30:00',
       'categories': [2, 4],
-      '_embedded': {'wp:featuredmedia': [
-        {'source_url': 'https://example.com/media.jpg'}
-      ]},
+      '_embedded': {
+        'wp:featuredmedia': [
+          {'source_url': 'https://example.com/media.jpg'},
+        ],
+      },
     });
     expect(model.id, 51);
     expect(model.title, 'Noticia real');

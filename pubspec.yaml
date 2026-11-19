@@ -45,6 +45,12 @@ dependencies:
   image_picker: ^1.2.4
   flutter_html: ^3.0.0
   html: 0.15.6
+  just_audio: ^0.10.6
+  carousel_slider: ^5.1.2
+  url_launcher: ^6.3.3
+  google_fonts: ^9.0.0
+  audio_session: ^0.2.4
+  audio_service: ^0.18.19
 
 dev_dependencies:
   flutter_test:
@@ -69,6 +75,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/icon/
+    - assets/icons/
     - assets/images/
 
   # To add assets to your application, add an assets section, like this:

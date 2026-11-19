@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:app_noticias/models/news_model.dart';
-import 'package:app_noticias/services/bookmark_service.dart';
+import 'package:app_noticias/modules/news/models/news_model.dart';
+import 'package:app_noticias/modules/news/service/bookmark_service.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
